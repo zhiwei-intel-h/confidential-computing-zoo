@@ -10,10 +10,6 @@ else()
     add_subdirectory(sgx-ecdsa)
 endif()
 
-if(HOST)
-    add_subdirectory(sev-snp)
-endif()
-
 if(TDX)
     add_subdirectory(tdx-ecdsa)
 endif()
